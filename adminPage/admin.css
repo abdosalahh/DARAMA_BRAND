@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(set.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+
+}
+.backhome{
+    margin-left: 1200px;
+	color: black;
+	cursor: pointer;
+	border: white solid 20px;
+	border-radius: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    font-weight: bolder;
+}
+h1
+{
+    text-align: center;
+    font-size: 80px;   
+    border:10px solid rgba(128, 128, 128, 0.123);
+    background-color: rgba(245, 245, 220, 0.301);  
+}
+.t2{
+    font-size: 40px;
+}
+
+
+
+ul{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    padding:10px 100px;
+	cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.795); 
+    color: blanchedalmond ;
+	border:0;
+	outline: none;
+	position: relative;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    
+}
+button:hover{
+    color: crimson;
+}
+input{
+    padding:10px 100px;
+	cursor:pointer;
+    background-color:rgba(45, 9, 78, 0.829); 
+	border:0;
+	outline: none;
+	position: relative;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+    
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: blanchedalmond;
+    border-radius: 20px;
+}
+.btn:hover{
+    color: crimson;
+}

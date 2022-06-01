@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	
+  }
+   
+   html{background-color: wheat;}
+   
+   /* Style the body  */
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+  }
+  img{border-radius: 50px;}
+ /* Header/logo Title  */
+.header {
+	padding: 80px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/nav.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	color: white;
+  }
+  
+   /* Increase the font size of the heading  */
+  .header h1 {
+	font-size: 40px;
+  }
+  
+   /* Style the top navigation bar  */
+  .navbar {
+	overflow: hidden;
+	background-color: rgb(39, 2, 39);
+  }
+  
+   /* Style the navigation bar links  */
+  .navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+  }
+  
+   Right-aligned link 
+  .navbar a.right {
+	float: right;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    } 
+.h2{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    text-shadow: 5px 5px 10px rgb(39, 2, 39);
+}
+.cart{
+    margin: 80px 80px 80px 80px;
+}
+
+th{
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background: rgb(39, 2, 39);
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+td{
+    padding: 30px 20px;
+    font-size: 30px;
+    color: rgb(39, 2, 39);
+    font-weight: bolder;
+}
+td input{
+    width: 30px;
+    height: 10px;
+    padding: 5px;
+}
+.row1 div{
+    margin: 50px;
+    font-size: 20px;
+}
+td a{
+    color: rgb(39, 2, 39);
+    text-decoration: none;
+}
+td img{
+    width: 140px;
+    height:140px ;
+    margin-right: 20px;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+}
+.total table{
+    border-top: 3px solid rgb(39, 2, 39);
+    width: 100%;
+    max-width: 430px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+
+}
+button{
+    border:  rgb(39, 2, 39) solid 20px;
+    border-radius: 50px;
+    background: rgb(39, 2, 39);
+    color: white;
+    font-size: 20px;
+}
+.sh1 {
+    font-size: 40px;
+}

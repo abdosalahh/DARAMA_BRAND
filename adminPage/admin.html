@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content=" style11">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="admin.css">
+    <script src="admin.js"></script>
+</head>
+
+<body>
+  
+  
+    
+   <b><h1 id="fontx">CONTROL PANEL</h1></b> <br>
+    <p class="t2">Control The Admin Page Style.</p> 
+     
+       <a class="backhome" href='../website.html'>Back Home</a>                                                      
+    
+     <br>
+
+        <b><h2>1-font size.</h2></b>  <br>
+
+  <div class="back">
+    <ul>
+        <li>
+            <button onclick="setfont1()"> change font size to 50px </button>
+        </li>
+        <li>
+            <button onclick="setfont2()"> change font size to 60px </button>
+        </li>
+        <li>
+            <button onclick="setfont3()">  change font size to 70px </button>
+        </li>
+        <li>
+            <button onclick="setfont4()"> change font size to 80px </button>
+        </li>
+        <li>
+            <button onclick="setfont5()">  change font size to 90px </button>
+        </li>
+      </ul>
+  </div>
+       <br>
+       <h2>2-font color.</h2>  <br>
+    <div class="back">
+        <ul>
+ 
+            <li>
+                <button onclick="setfont6()">..red..</button>
+            </li>
+            <li>
+                <button onclick="setfont7()">.blue..</button>
+            </li>
+            <li>
+                <button onclick="setfont8()">green.</button>
+            </li>
+            <li>
+                <button onclick="setfont9()">yellow</button>
+            </li>
+            <li>
+                <button onclick="setfont10()">white.</button>
+            </li>
+        </ul>
+    </div>
+    <br><hr><br>
+    
+    <h2>Control Of Home Page.</h2> <br>
+    <ul>
+        <form action="../website.html" method="POST"> 
+            <input type="text" placeholder="FONT-SIZE" name="font-size" id="font-size" /> <br> 
+            <input type="text" placeholder="FONT-COLOR" name="font-color" id="font-color"/> <br>
+            <input type="submit" onclick="handleSubmit()" class="btn"/>
+        </form>   
+    </ul>
+    
+    <br><br>
+
+    <h2>Control Of Contact Page.</h2>  <br><hr><br>
+     <ul>
+        <form action="../contact/contact.html" method="POST">
+            <input type="text" placeholder="FONT-SIZE" name="font-size" id="font-size1"/> <br> 
+            <input type="text" placeholder="FONT-COLOR" name="font-color" id="font-color1"/> <br>
+            <input type="submit" onclick="handleSubmit1()" class="btn"/>
+     </ul>
+    </form>
+
+
+
+
+
+</body>
+</html>

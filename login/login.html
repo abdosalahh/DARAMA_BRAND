@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DARAMA</title>
+    <link rel="stylesheet" href="login.css">
+    <!---we had linked our css file----->
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a class="darama" href='#'>DARAMA</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="backhome" href='../website.html'>Back Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
+                    <button type='button' onclick='register()' class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text' class='input-field' placeholder='User Name' required id="username">
+                    <input type='password' class='input-field' placeholder='Enter Password' required id="password">
+                    
+                    <input type='checkbox' class='check-box'><span>Remember Password</span>
+                    <button type='submit' class='submit-btn' onclick="validateLogin()">Log in</button>
+                </form>
+                <form id='register' class='input-group-register'>
+                    <input type='text' class='input-field' placeholder='First Name' required id="first-name">
+                    <input type='text' class='input-field' placeholder='Last Name' required id="last-name">
+                    <input type='email' class='input-field' placeholder='Email Id' required id="email">
+                    <input type='password' class='input-field' placeholder='Enter Password' required id="password1">
+                    <input type='password' class='input-field' placeholder='Confirm Password' required id="password2">
+                    <input type='checkbox' class='check-box'><span>I agree to the terms and conditions</span>
+                    <button type='submit' class='submit-btn' onclick="validateRegister()">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

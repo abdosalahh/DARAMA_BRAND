@@ -1,0 +1,206 @@
+ @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: broder-box;
+ font-family: 'Poppins', sans-serif;   
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+  font-size: 36px;
+  font-weight: 900;
+  color: #fff;
+}
+.contact .content p
+{
+  font-weight:300;
+  color: #fff;
+}
+.container
+{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .contactInfo
+{
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;  
+}
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(16, 121, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.container .contactInfo .box .text
+{
+    display:flex;
+    margin-left:20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction:column;
+    font-weight:300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.562);
+    border-radius: 30px;
+    
+}
+.contactForm h2
+{
+  font-size: 30px;
+  color: wheat;
+  font-weight: 500;  
+}
+.contactForm .inputBox
+{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;   
+}
+.contactForm .inputBox span
+{
+  position: absolute;
+  left: 5px;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: black;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color:#e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="sumbit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm
+    {
+        width: 100%;
+    }
+}
+    input{
+  background: rgba(255, 255, 255, 0.589);
+  border-radius: 30px;
+}
+.send{
+  background-color: rgb(77, 21, 129);
+}
+ textarea{
+   border-radius: 10px;
+   background: rgba(255, 255, 255, 0.589);
+ }
+ ul li {
+  display: inline-block;
+  margin-left: 800px;
+ 
+ }
+ ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+ }
+ .backhome{
+	color: black;
+	width: 100%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+	
+}
+a:hover{
+  color: rgb(46, 92, 46);
+}
